@@ -22,6 +22,15 @@
 //     } return outputArray.join(" ");
 // }
 
-let input = "input"
 
-Array.from({length: "input" + 1}, (v,i) => i);
+// const submitButton = document.querySelector('buttonSubmit')
+// submitButton.addEventListener("submit",numGen);
+
+
+function generateArrayFromNumberInput(input) {
+    return Array.from({length:parseInt(input.value)+  1}, (v,i) => i);
+}
+
+   
+
+

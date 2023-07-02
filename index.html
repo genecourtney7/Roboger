@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <title>Pig Latin</title>
+  <title>Mr. Roboger's Neighborhood</title>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/scripts.js"></script>
 </head>
 <body>
-    <input type="text" id = "input">
-    <div id="output" ></div>
-    <button type="submit" id="buttonSubmit"></button>
+    <form>
+        <label for="number-input">Enter a number:</label>
+        <input type="number" id="number-input" name="number-input">
+        <button type="submit" onclick="event.preventDefault();
+        const array = generateArrayFromNumberInput(document.getElementById('number-input'));
+        document.getElementById('array-output').textContent =  array.join(',');">Generate Array</button>
+    </form>
+
+    <div id="array-output"></div>
 
 </body>
