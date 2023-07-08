@@ -32,12 +32,19 @@ function replaceThrees(array){
     });
 }
 
-function generateOutput(input){
-    const array = generateArrayFromNumberInput(input);
-    const onesReplaced = replaceOnes(array);
-    const twosReplaced = replaceTwos(onesReplaced);
-    const threesReplaced  = replaceThrees(twosReplaced);
-    const output = threesReplaced.join(",");
+function generateOutput() {
+    let input = document.getElementById("input");
+    let output = document.getElementById("output");
 
-    document.getElementById("array-output").textContent = output;
+    let array = generateArrayFromNumberInput(input);
+    array = replaceOnes(array);
+    array = replaceTwos(array);
+    array = replaceThrees(array);
+
+    let html = "";
+    for(let i=0; i<array.length; i++){
+        html += array[i] + "<br>";
+    }
+
+    output.innerHTML = html;
 }

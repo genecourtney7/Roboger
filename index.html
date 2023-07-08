@@ -3,16 +3,13 @@
 <head>
   <title>Mr. Roboger's Neighborhood</title>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/scripts.js"></script>
 </head>
 <body>
-    <form>
-        <label for="number-input">Select a number to see what Mr. Roboger Says:</label>
-        <input type="number" id="number-input" name="number-input">
-        
-    </form>
-    <button onclick="generateOutput(document.getElementById('number-input'))">Mr.Roboger Says</button>
-        
-        <div id="array-output"></div>
+  <label for="input">Enter a number:</label>
+  <input type="number" id="input">
+  <button onclick="generateOutput()">Generate Output</button>
+  <div id="output"></div>
 
+  <script src="js/scripts.js"></script> 
 </body>
+</html>
