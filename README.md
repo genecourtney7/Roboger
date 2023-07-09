@@ -14,8 +14,9 @@ https://genecourtney7.github.io/Roboger/
 * Gather a number input for Mr.Roboger to output what Mr. Roboger will say.
 ## Setup/Installation Requirements
 * Clone this repository to your desktop.
-* click the url and open with compatible browser. 
-* Input number to output result
+* open the html file and open with compatible browser. 
+* Input number in input box.
+* Click the generate button to output what Mr. Roboger says.
 ## Tests
 * Describe: replaceOnes()
     Test: "It should replace all numbers that contain "1" with "beep!""
@@ -37,4 +38,4 @@ https://genecourtney7.github.io/Roboger/
 ## Known Bugs
 * No known Bugs
 ## license  
-*copyright 7-2-23 author: Mark Courtney
+*copyright 7-8-23 author: Mark Courtney
