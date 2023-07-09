@@ -38,4 +38,4 @@ https://genecourtney7.github.io/Roboger/
 ## Known Bugs
 * No known Bugs
 ## license  
-*copyright 7-8-23 author: Mark Courtney
+Copyright 7-8-23 author: Mark Courtney
