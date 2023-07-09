@@ -37,9 +37,9 @@ function generateOutput() {
     let output = document.getElementById("output");
 
     let array = generateArrayFromNumberInput(input);
-    array = replaceOnes(array);
-    array = replaceTwos(array);
     array = replaceThrees(array);
+    array = replaceTwos(array);
+    array = replaceOnes(array);
 
     let html = "";
     for(let i=0; i<array.length; i++){
@@ -47,4 +47,8 @@ function generateOutput() {
     }
 
     output.innerHTML = html;
+}
+function resetOutput() {
+    let output = document.getElementById("output");
+    output.innerHTML = "";
 }
