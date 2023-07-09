@@ -19,20 +19,35 @@ https://genecourtney7.github.io/Roboger/
 * Click the generate button to output what Mr. Roboger says.
 ## Tests
 * Describe: replaceOnes()
+
     Test: "It should replace all numbers that contain "1" with "beep!""
+
     Code: replaceOnes();
+
     Expected Output: [0,"beep!"]
+    
 * Describe: replaceTwos()
+
     Test: "It should replace all numbers that contain "2" with "boop!""
+
     Code: replaceTwos();
+
     Expected Output: [0,1,"boop!"]
+
 * Describe: replaceThrees()
+
     Test: "It should replace all numbers that contain "3" with "Won't you be my neighbor?""
+
     Code: replaceThrees();
+
     Expected Output: [0,1,2,"Won't you be my neighbor?"]
+
 * Describe: generateOutput()
+
     Test: "It should run all three functions at the same time generating desired output."
+
     Code: generateOutput();
+
     Expected Output: [0,"beep!","boop!","Won't you be my neighbor?,..."]
 
 ## Known Bugs
