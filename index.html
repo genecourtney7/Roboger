@@ -2,15 +2,16 @@
 <html lang="en-US">
 <head>
   <title>Mr. Roboger's Neighborhood</title>
+  <script src="js/scripts.js"></script>
   <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <label for="input">Enter a number:</label>
-  <input type="number" id="input">
-  <button onclick="generateOutput()">Mr. Roboger Say:</button>
-  <button onclick="resetOutput()">Reset</button>
+  <form id="Roboger">
+    <label for="input">Enter a number:</label>
+    <input type="number" id="input">
+    <button id="submit" type="submit">Mr. Roboger Say:</button>
+    <button id="reset" type="reset">Reset</button>
+  </form>
   <div id="output"></div>
-
-  <script src="js/scripts.js"></script> 
 </body>
 </html>

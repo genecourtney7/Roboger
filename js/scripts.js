@@ -52,3 +52,17 @@ function resetOutput() {
     let output = document.getElementById("output");
     output.innerHTML = "";
 }
+
+window.addEventListener("load", function(){
+
+    const roboger = document.getElementById("Roboger")
+    roboger.addEventListener("submit", function(event){
+        event.preventDefault();
+        generateOutput();   
+    })
+
+    const resetBtn = this.document.getElementById("reset")
+    resetBtn.addEventListener("click", function(){
+        resetOutput();
+    })
+})
